@@ -471,13 +471,159 @@ main .person p:nth-of-type(2){
     font-weight: 700;
     color: #737373;
 }
-main .sub .subscrib{
+main .sub{
     margin:0 auto;
     background-color: rosybrown;
     width:1440px;
     height:594px;
 }
+main .subscrib .subtext{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
 main .subscrib p:first-of-type{
     width: 82px;
     height:24px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top:160px ;
+    margin-left:678px;
+    margin-bottom:0.6rem ;
+    color:#96BB7C;
+}
+main .subscrib h2{
+    font-size: 24px;
+    font-weight:700;
+    width:251px;
+    height: 32px;
+    margin-left: 594px;
+    margin-bottom: 0.6rem;
+}
+main .subscrib p:last-of-type{
+    width: 469px;
+    height:40px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 485px;
+    margin-bottom:5rem ;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color:#737373
+}
+main form{
+    display: flex;
+    margin-left: 376px;
+}
+main .mail input{
+    border: 1px solid #737373 ;
+    width: 688px;
+    height:58px;
+    background-color: #F9F9F9;
+}
+main .inscip button{
+    width: 117px;
+    height: 60px;
+    background-color: #96BB7C;
+    border: #737373;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    display:flex;
+}
+footer .compagny{
+    flex-direction: column;
+    margin-left:210px;
+    margin-right:-150px;
+    margin-top:3.1rem ;
+    justify-content: start;  
+}
+footer .compagny p:first-of-type{
+    width: 115px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #252B42;
+    margin-bottom: 1.25rem;
+}
+footer .compagny p:nth-of-type(2){
+    width: 67px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 1.25rem;
+    color: #737373;
+}
+footer .compagny p:nth-of-type(3){
+    width: 50px;
+    height:24px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 0.6rem;
+}
+footer .compagny p:nth-of-type(4){
+    width: 97px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 0.6rem;
+}
+footer .compagny p:nth-of-type(5){
+    width: 33px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+    margin-bottom:3.25rem ;
+}
+footer .get{
+    display: block;
+    margin-top: 3.25rem;
+    margin-left: 250px;
+}
+footer .get p:first-of-type{
+    font-weight: 700;
+    font-size:16px;
+    width: 103px;
+    height: 24px;
+    color: #252B42;
+}
+footer .get p:nth-of-type(2){
+    font-weight: 700;
+    font-size: 14px;
+    width: 109px;
+    height: 24px;
+    margin-left: 8.9rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.8rem;
+    color: #737373;
+}
+footer .get p:nth-of-type(3){
+    color: #737373;
+    width:372px;
+    height:24px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 0.8rem;
+}
+footer .get p:nth-of-type(4){
+    width: 186px;
+    height:24px;
+    font-size: 14px;
+    font-weight: 700;
+    color:#737373;
+}
+footer .fin{
+    display: flex;
+}
+footer .fin p{
+    margin-top:297px;
+    margin-left: -1120px;
+    margin-bottom:1.5rem ;
 }
