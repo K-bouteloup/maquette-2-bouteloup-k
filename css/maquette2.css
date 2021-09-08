@@ -400,3 +400,84 @@ main .yellow a{
     border-radius: 20px 20px;
     padding:1rem 2rem;
 }
+main .popular .test{
+    display: block;
+    margin-top: 160px;
+    margin-left: 198px;
+}
+main .test p:first-of-type{
+    color: #96BB7C;
+    width: 93px;
+    height:24px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+main .test h2{
+    width: 420px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color:#252B42;
+    margin-bottom: 0.6rem;
+}
+main .test p:last-of-type{
+    width: 469px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 6rem;
+}
+main .popular .comment{
+    display: flex;
+    margin-top: 1.5rem;
+}
+main .popular .comments{
+    width: 508px;
+    height: 378px;
+    margin:0 auto;
+}
+main .comments img{
+    width:128px;
+    height:128px;
+    margin:25px 190px 30px 190px;
+}
+main .comments p:nth-of-type(1){
+    width: 320px;
+    height:60px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #737373;
+    margin:0px 94px 16px 94px
+}
+main .comment .person{
+    width:105px;
+    height:24px;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+}
+main .person p:first-of-type{
+    margin: 1.5rem auto;
+    color:black;
+    font-weight: 700;
+    font-size: 16px;
+}
+main .person p:nth-of-type(2){
+    width: 65px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #737373;
+}
+main .sub .subscrib{
+    margin:0 auto;
+    background-color: rosybrown;
+    width:1440px;
+    height:594px;
+}
+main .subscrib p:first-of-type{
+    width: 82px;
+    height:24px;
+}
